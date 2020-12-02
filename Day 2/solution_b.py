@@ -27,7 +27,7 @@ def main() -> None:
             c_range, char, password = line.split(' ')
             pos_a, pos_b = map(int, c_range.split('-'))
 
-            # char[0] to get the character from excample: "c:"
+            # char[0] to get the character, for example: "c:"
             testcase.append((pos_a, pos_b, char[0], password))
 
     print(solve(testcase))
